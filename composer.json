@@ -1,0 +1,16 @@
+{
+    "name": "php-garb/php-garb",
+    "description": "Manage and delete massive amounts of files with just a few shell commands.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Azevedo",
+            "email": "gcavalcante3000@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    
+    "require": {
+        "php": ">=8.0.8"
+    }
+}
