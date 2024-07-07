@@ -5,14 +5,14 @@ The developer can make a backup (save function) and after generate a lot resdue,
 **************
 ## Download
 You can get'it of 2 way:
- 1. [Download code from Github](DownloadCodeFromGithub)
- 2. [Using Composer](UsingComposer)
+ 1. [Download code from Github](#DownloadCodeFromGithub)
+ 2. [Using Composer](#UsingComposer)
 
 <div id='DownloadCodeFromGithub'/>
 <div id='UsingComposer'/>
   
 ### Using Composer
-* **Install Composer:** It's possible to get information on the [getcomposer.org/download/](https:https://getcomposer.org/download/)
+* **Install Composer:** It's possible to get information on the [getcomposer.org/download/](https://getcomposer.org/download/)
 * **Require:** Use the command on Shell terminal: `composer require php-garb/php-garb` .
 *  **Move script to root** You must move the file `garb.php` and folder `Garb` to the root of you project. It will be located at `vendor/garb-php/garb-php/`.
 *******************
