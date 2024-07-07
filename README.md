@@ -24,8 +24,8 @@ You can get'it of 2 way:
 ## Optmize
 On the root directory rename garb.php to garb (without extenssion) for decrease command text on shell terminal.
 
-## How use
+## How use functions
 Alias is the backup name that refer to directory that will be handled. All operations use it.
 
-### Help()
+### 1 - Help
 Get informations about commands, arguments and other details, locate the terminal in the same local of garb (garb.php) and try: `php garb` or `php garb help`
