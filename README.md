@@ -1,6 +1,6 @@
 # PHP-GARB
 Welcome to the php-garb. 
-PHP-Garb is a script that enable mananger garbage files through alias of directies.
+PHP-Garb is a script that enable mananger garbage files through alias of directories.
 The developer can make a backup (save function) and after generate a lot resdue, call a folder cleaning (clear function) deleting only files not saved on backup.
 **************
 ## Download
