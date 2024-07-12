@@ -33,7 +33,7 @@ Get informations about commands, arguments and other details, locate the termina
  ### 2 - Save
 This function will be save a alias for refer the folder and scan folder to save names of you files (NOT CONTENTS, BUT NAMES). This names will prevent delete this listeds on function clear.
 Use:
-`php garb save directory/folder alias`.
+`php garb save directory/folder as alias`.
  
 <div id="clear"/>
 
