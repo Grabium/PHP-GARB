@@ -41,4 +41,4 @@ Use:
  ### 3 - Clear
  Clear function work for delete the files not saveds in the folder that was passed as argument.
  Use:
- `php garb clear alias`.
+ `php garb alias`.
