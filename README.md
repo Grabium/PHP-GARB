@@ -17,7 +17,7 @@ You can get'it of 2 way:
 ### 2. Using Composer
 * **Install Composer:** It's possible to get information on the [getcomposer.org/download/](https://getcomposer.org/download/)
 * **Require:** Use the command on Shell terminal: `composer require php-garb/php-garb` .
-*  **Move script to root** You must move the file *garb.php* and folder *Garb* to the root of you project. It will be located at *vendor/garb-php/garb-php/*. Set the Shell on root directory and try `mv vendor/php-garb/php-garb/garb.php garb|mv vendor/php-garb/php-garb/Garb Garb`.
+* **Move application to root of project:** You must move the file *garb.php* and folder *Garb* to the root of you project. It will be located at *vendor/garb-php/garb-php/*. Set the Shell on root directory and try `mv vendor/php-garb/php-garb/garb.php garb|mv vendor/php-garb/php-garb/Garb Garb`.
 *******************
 <div id='Optmize'/>
  
