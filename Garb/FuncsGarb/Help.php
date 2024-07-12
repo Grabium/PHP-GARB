@@ -33,7 +33,7 @@ Use one of the syntaxes below:
 ----------------------------------------------------------------
 ||
 ||  php garb update  <alias> 
-||  php garb clear   <alias> 
+||  php garb <alias> 
 ||  php garb list 
 ||  php garb list    <alias>
 ||  php garb save    <directory/subdir> as <alias>
@@ -46,7 +46,7 @@ ______________________Functions Details:_________________________
 help.......................................print this text help.
 update <alias>..................................update the save.
 save <d> as <a>......save alias and update the save overwithing.
-clear <alias>...............................clear the directory.
+<alias>.....................................clear the directory.
 list..............list all alias and the referenced directories.
 list <alias>................list all files saveds on this alias.
 delete <alias>.....................................delete alias.
