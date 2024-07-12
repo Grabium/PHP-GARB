@@ -6,12 +6,12 @@ The developer can make a backup (save function) and after generate a lot residue
 ## Download
 You can get'it of 2 way:
  1. [Download scrit from Github](#DownloadCodeFromGithub)
- 2. [Using Composer](#UsingComposer)
+ 2. [Using Composer](#UsingComposer) (recommended)
 
 <div id='DownloadCodeFromGithub'/>
 
  ### 1. Dowload Code From GitHub
- * **Download:** Try the link [https://github.com/Grabium/PHP-GARB](https://github.com/Grabium/PHP-GARB/) and go to `code`/`download zip`. Continue reading [Optmize](#Optmize)
+ * **Download:** Try the link [https://github.com/Grabium/PHP-GARB](https://github.com/Grabium/PHP-GARB/) and go to `code`/`download zip`. For optmize the use, rename the file *'garb.php'* to *'garb'* (without extenssion) for decrease command text on shell terminal.
 <div id='UsingComposer'/>
   
 ### 2. Using Composer
@@ -22,7 +22,7 @@ You can get'it of 2 way:
 <div id='Optmize'/>
  
 ## Optmize
-On the root directory rename the file *'garb.php'* to *'garb'* (without extenssion) for decrease command text on shell terminal.
+
 
 ## How use functions
 Alias is the backup name that refer to directory that will be handled. All operations use it.
