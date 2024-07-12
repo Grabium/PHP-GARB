@@ -37,7 +37,15 @@ foreach(scandir(__DIR__) as $item){
     continue;
   }
   $listFiles[] = $item;
-  print ($n).\' - \'.$item.PHP_EOL;
+  if(is_dir(__DIR__.\'/\'.$item)){
+    //caso seja pasta, o nome do item é exibido em vermelho
+    $s = (55 - strlen($item));
+    $points = ($s >= 1) ? str_repeat(\'.\', $s) : \'......\';
+    system(\'points=\'.$points.\' && item=\'.$item.\' && num=\'.$n.\' && echo "\033[1;31m$num - $item $points(DIR) \033[m" \');
+  }else{
+    print ($n).\' - \'.$item.PHP_EOL;
+  }
+  
   $n ++;
 }
 
@@ -48,7 +56,8 @@ if($n == 1){
 }else{
   //var_dump($listFiles);die();
   foreach($listFiles as $file){
-    unlink(__DIR__.\'/\'.$file);
+    $r = __DIR__.\'/\'.$file;
+    (is_dir($r)) ? system(\'rm -r -d \'.$r) : unlink($r); //remove pasta e conteúdo.
   }
   print \'Files DELETED!\'.PHP_EOL;
 }
