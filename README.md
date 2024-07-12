@@ -11,13 +11,13 @@ You can get'it of 2 way:
 <div id='DownloadCodeFromGithub'/>
 
  ### 1. Dowload Code From GitHub
- * **Download:** Try the link [https://github.com/Grabium/PHP-GARB](https://github.com/Grabium/PHP-GARB/) and go to `code`/`download zip`. For optmize the use, rename the file *'garb.php'* to *'garb'* (without extenssion) for decrease command text on shell terminal.
+ * **Download:** Try the link [https://github.com/Grabium/PHP-GARB](https://github.com/Grabium/PHP-GARB/) and go to `code`/`download zip`. For optmize the use, rename the file *'garb.php'* to *'garb'* (without extenssion) for decrease command text on shell terminal. And use code on shel `rm Garb/Lists/null`.
 <div id='UsingComposer'/>
   
 ### 2. Using Composer
 * **Install Composer:** It's possible to get information on the [getcomposer.org/download/](https://getcomposer.org/download/).
 * **Require:** Use the command on Shell terminal: `composer require php-garb/php-garb` .
-* **Move application to root of project:** You must move the file *garb.php* and folder *Garb* to the root of you project. It will be located at *vendor/garb-php/garb-php/*. Set the Shell on root directory and try `mv vendor/php-garb/php-garb/garb.php garb|mv vendor/php-garb/php-garb/Garb Garb`.
+* **Move application to root of project:** You must move the file *garb.php* and folder *Garb* to the root of you project. It will be located at *vendor/garb-php/garb-php/*. Set the Shell on root directory and try `mv vendor/php-garb/php-garb/garb.php garb && mv vendor/php-garb/php-garb/Garb Garb && rm Garb/Lists/null`.
 *******************
 
 
